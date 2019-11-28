@@ -1,0 +1,15 @@
+body {
+    background-image: url(https://haizy.ru/files/img-uroki/Paper_set1/waterford_texture.jpg);
+}
+
+.header {
+    background-image: url(/Users/mac/Desktop/GitHub/kekeryken.github.com/gdz/qwe.jpg);
+    height: 160px;
+    width: 350px;
+}
+
+.name {
+    font-family: 'Prata', serif;
+    font-size: 30px;
+    color: cornsilk;
+}

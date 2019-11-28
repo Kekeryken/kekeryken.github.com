@@ -1,0 +1,56 @@
+.name {
+    font-family: 'Prata', serif;
+    font-size: 30px;
+    color: cornsilk;
+}
+
+
+
+
+.header {
+    background-image: url(/Users/mac/Desktop/GitHub/kekeryken.github.com/gdz/qwe.jpg);
+    height: 160px;
+    width: 350px;
+}
+
+
+
+
+
+
+.mainmenubtn {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+
+.mainmenubtn:hover {
+    background-color: red;
+    }
+    
+.dropdown {
+    position: absolute;
+    display: inline-block;
+    left: 86%; bottom: 0%;
+}
+.dropdown-child {
+    display: none;
+    background-color: black;
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+body {
+    background-image: url(https://haizy.ru/files/img-uroki/Paper_set1/waterford_texture.jpg);
+}
