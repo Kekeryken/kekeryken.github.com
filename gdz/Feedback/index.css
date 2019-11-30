@@ -2,15 +2,14 @@
     font-family: 'Prata', serif;
     font-size: 30px;
     color: cornsilk;
+    position: absolute; left: 0%; top: 80%;
 }
 
 
 
 
-.header {
-    background-image: url(https://i.ibb.co/zH0ksBD/qwe.jpg);
-    height: 160px;
-    width: 210px;
+.img {
+    position:absolute;left:50%; right:50%; top: 90%;
 }
 
 
@@ -18,6 +17,16 @@
     text-align: center;
 
 }
+
+.text {
+    font-family: 'Prata', serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+
+
 
 
 
@@ -37,7 +46,7 @@
 .dropdown {
     position: absolute;
     display: inline-block;
-    left: 86%; bottom: 0%;
+    left: 0%; bottom: 0%; top: 0%;
 }
 .dropdown-child {
     display: none;
@@ -53,6 +62,8 @@
 .dropdown:hover .dropdown-child {
     display: block;
 }
+
+
 
 body {
     background-image: url(https://i.ibb.co/8mJQsk3/texture-fon.jpg);
