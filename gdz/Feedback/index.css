@@ -1,21 +1,19 @@
 .name {
     font-family: 'Prata', serif;
-    font-size: 30px;
+    font-size: 15px;
     color: cornsilk;
-    position: absolute; left: 0%; top: 80%;
+    position: absolute; left: 0%; top: 90%;
+    background: orange;
 }
 
 
 
 
-.img {
-    position:absolute;left:50%; right:50%; top: 90%;
-}
 
 
 .os {
     text-align: center;
-
+    position: relative;
 }
 
 .text {
@@ -66,5 +64,8 @@
 
 
 body {
+    width: 1440px;
+    height: 800px;
+    margin: 0;
     background-image: url(https://i.ibb.co/8mJQsk3/texture-fon.jpg);
 }
