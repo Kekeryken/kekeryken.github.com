@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+      
+      color: darkgrey;
+      font:  40px 'Nunito', sans-serif; 
+
+  }
+  html, body {height: 100%}
+  
+  @keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+   100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+  }
+  
+  @-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+  }
+  
+  @-o-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+  }
+  
+  @-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+   100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+  }
+  
+  @-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+   100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+  }
+  
+  body {
+      background-image: url(/Users/mac/Desktop/открытка/20130714004359101.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     -ms-background-size: cover;
+     background-size: cover;
+  }
+  
+  div#wrapper {
+      background-image: url('snowflake.png');
+      height:100%;
+      -webkit-animation: snow 20s linear infinite;
+      -moz-animation: snow 20s linear infinite;
+      -ms-animation: snow 20s linear infinite;
+      -o-animation: snow 20s linear infinite;
+      animation: snow 20s linear infinite;
+      font-family: 'Nunito', sans-serif;
+  }
+  
+  #container {
+      width: 800px;
+      margin-left: -400px;
+      margin-top: -200px;
+      position: absolute;
+      top: 50%;	
+      left: 50%;
+      text-align: center;
+      color: cornsilk;
+      font: 80px 'Nunito', sans-serif;
+      text-shadow: 1px 1px 2px black;
+  }
+  
+  #container p {
+      font: 12px/1.5 "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  }
