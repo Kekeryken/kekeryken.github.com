@@ -37,7 +37,7 @@
   }
   
   body {
-      background-image: url(/Users/mac/Desktop/GitHub/kekeryken.github.com/открытка/20130714004359101.jpg);
+      background-image: url(https://i.ibb.co/GsCTw3W/20130714004359101.jpg);
       background-repeat: no-repeat;
       background-attachment: fixed;
      -webkit-background-size: cover;
@@ -48,7 +48,7 @@
   }
   
   div#wrapper {
-      background-image: url('snowflake.png');
+      background-image: url('https://i.ibb.co/PC2tjTZ/snowflake.png');
       height:100%;
       -webkit-animation: snow 20s linear infinite;
       -moz-animation: snow 20s linear infinite;
